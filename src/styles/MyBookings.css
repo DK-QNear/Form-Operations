@@ -1,0 +1,48 @@
+.my-bookings-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.my-bookings-container h2 {
+    text-align: center;
+}
+
+.my-bookings-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.my-bookings-container li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.my-bookings-container li:last-child {
+    border-bottom: none;
+}
+
+.my-bookings-container strong {
+    font-weight: bold;
+}
+
+.delete-button {
+    float: right;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.edit-button {
+    float: right;
+    background-color: #4d94ff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
